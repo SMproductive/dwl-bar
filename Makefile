@@ -1,4 +1,4 @@
-CC=gcc
+# CC=gcc
 CFLAGS = -std=c99 -pedantic -Wall -Wno-deprecated-declarations -Os ${INCS} ${CPPFLAGS}
 LIBS = ${shell pkg-config --libs gtk4} ${shell pkg-config --cflags gtk4}
 

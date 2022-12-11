@@ -4,6 +4,8 @@
 
 (specifications->manifest
   (list "glibc"
+		"coreutils"
+		"make"
         "gtk"
         "pkg-config"
         "gcc"
