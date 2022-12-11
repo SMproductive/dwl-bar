@@ -8,7 +8,7 @@ static void activate(GtkApplication *app, gpointer user_data) {
   gtk_window_set_title(GTK_WINDOW(window), "dwl-bar");
   gtk_window_fullscreen(window);
   gtk_window_set_default_size(window, gtk_widget_get_width(window), 100);
-  gtk_widget_set_size_request(window, gtk_widget_get_width(window), 100);
+  /* gtk_widget_set_size_request(window, gtk_widget_get_width(window), 100); */
   gtk_window_set_resizable(window, false);
 
   gtk_widget_show(window);
